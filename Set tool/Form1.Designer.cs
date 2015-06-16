@@ -93,6 +93,7 @@
             this.tb_b_minus_a.Location = new System.Drawing.Point(3, 16);
             this.tb_b_minus_a.Multiline = true;
             this.tb_b_minus_a.Name = "tb_b_minus_a";
+            this.tb_b_minus_a.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.tb_b_minus_a.Size = new System.Drawing.Size(280, 152);
             this.tb_b_minus_a.TabIndex = 1;
             // 
@@ -113,6 +114,7 @@
             this.tb_a_minus_b.Location = new System.Drawing.Point(3, 16);
             this.tb_a_minus_b.Multiline = true;
             this.tb_a_minus_b.Name = "tb_a_minus_b";
+            this.tb_a_minus_b.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.tb_a_minus_b.Size = new System.Drawing.Size(279, 152);
             this.tb_a_minus_b.TabIndex = 1;
             // 
@@ -133,6 +135,7 @@
             this.tb_intersect.Location = new System.Drawing.Point(3, 16);
             this.tb_intersect.Multiline = true;
             this.tb_intersect.Name = "tb_intersect";
+            this.tb_intersect.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.tb_intersect.Size = new System.Drawing.Size(280, 151);
             this.tb_intersect.TabIndex = 1;
             // 
@@ -153,6 +156,7 @@
             this.tb_union.Location = new System.Drawing.Point(3, 16);
             this.tb_union.Multiline = true;
             this.tb_union.Name = "tb_union";
+            this.tb_union.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.tb_union.Size = new System.Drawing.Size(279, 151);
             this.tb_union.TabIndex = 1;
             // 
@@ -173,6 +177,7 @@
             this.tb_set_b.Location = new System.Drawing.Point(3, 16);
             this.tb_set_b.Multiline = true;
             this.tb_set_b.Name = "tb_set_b";
+            this.tb_set_b.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.tb_set_b.Size = new System.Drawing.Size(280, 151);
             this.tb_set_b.TabIndex = 1;
             this.tb_set_b.TextChanged += new System.EventHandler(this.tb_set_b_TextChanged);
@@ -216,6 +221,7 @@
             this.tb_set_a.Location = new System.Drawing.Point(3, 16);
             this.tb_set_a.Multiline = true;
             this.tb_set_a.Name = "tb_set_a";
+            this.tb_set_a.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.tb_set_a.Size = new System.Drawing.Size(279, 151);
             this.tb_set_a.TabIndex = 0;
             this.tb_set_a.TextChanged += new System.EventHandler(this.tb_set_a_TextChanged);
@@ -227,7 +233,7 @@
             this.ClientSize = new System.Drawing.Size(583, 558);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Set tool";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();

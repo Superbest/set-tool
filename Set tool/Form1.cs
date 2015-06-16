@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Set_tool
@@ -68,7 +63,7 @@ namespace Set_tool
             groupBox3.Text = "A U B: " + union + " items";
             groupBox4.Text = "A ∩ B: " + intersection + " items";
             groupBox5.Text = "A - B: " + a_minus_b + " items";
-            groupBox6.Text = "B - B: " + b_minus_a + " items";
+            groupBox6.Text = "B - A: " + b_minus_a + " items";
         }
 
         private void Clear(object sender, EventArgs e)
